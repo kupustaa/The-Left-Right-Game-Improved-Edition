@@ -1,0 +1,53 @@
+.page {
+    height: 400px;
+    width: 500px;
+    border-radius: 10px;
+    padding: 20px;
+    background: #101F21;
+    text-align:center;
+    color: #387881;
+}
+h2 {
+    border-radius: 10px;
+    color: linear-gradient(#404040,#0d0d0d);
+}
+img {
+    width:500px;
+    height: 50px;
+}
+.footer{
+    height: 30px;
+    width: 150px;
+    margin-top: 140px;
+    background: #0C7887;
+    cursor: pointer;
+    transition-duration: 0.9s;
+}
+.footer:hover{
+    background-image: linear-gradient(#0C7887,#013840);
+    cursor: pointer;
+}
+.footer > p {
+    padding: 5px;
+    color: black;
+}
+a {
+    text-decoration: none;
+}
+.button {
+     height: 30px;
+    width: 150px;
+   font-weight: bold;
+    background: #0C7887;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    border: 10px;
+}
+.button:hover {
+    background-image: linear-gradient(#0C7887,#013840);
+    cursor: pointer;
+}
+.highScore {
+    font-weight: bold;
+    font-size: 20;
+}
